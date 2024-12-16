@@ -9,7 +9,7 @@ packer {
 
 source "amazon-ebs" "ubuntu_ami" {
   ami_name      = "l40s-ubuntu-with-docker-and-nvidia-560-cuda-12-6-ami"
-  region        = "us-east-2"
+  region        = "us-west-2"
   instance_type = "g6e.xlarge"
 
   source_ami_filter {
